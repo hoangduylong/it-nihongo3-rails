@@ -9,7 +9,7 @@ class BooksController < ApplicationController
   # GET /books/1 or /books/1.json
   def show
     @book_review = BookReview.new
-  end
+  end 
 
   # GET /books/new
   def new
